@@ -1,3 +1,3 @@
 # Django Girls Workshop Blog
 
-#### Access Website via: https://www.noahalorwu.pythonanywhere.com
+#### Access Website via: https://noahalorwu.pythonanywhere.com
