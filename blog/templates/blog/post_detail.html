@@ -13,11 +13,10 @@
 	{% if user.is_authenticated %}
 <a class="btn btn-default" href="{% url 'post_remove' pk=post.pk %}"><span class="glyphicon glyphicon-remove"></span>
 </a>
-<a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}"><span class="glyphicon glyphicon-pencil"></span></a>	
-<h1>{{ post.title }}</h1>
-<p>{{ post.text|linebreaksbr }}</p>	
+<a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}"><span class="glyphicon glyphicon-pencil"></span></a>		
 {% endif %}
-	
+<h1>{{ post.title }}</h1>
+<p>{{ post.text|linebreaksbr }}</p>
 </div> 
 <hr>
 <a class="btn btn-default" href="{% url 'add_comment_to_post' pk=post.pk %}">Add comment</a>
